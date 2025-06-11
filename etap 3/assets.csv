@@ -1,0 +1,5 @@
+symbol,name,type,initial_price
+CDR,CD Projekt,STOCK,300.0
+PKO,PKO Bank Polski,STOCK,40.0
+KGH,KGHM,STOCK,120.0
+BOND10,Obligacja Skarbowa 10Y,BOND,1000.0

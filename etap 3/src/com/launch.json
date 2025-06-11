@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Start StockMarketApp",
+      "request": "launch",
+      "mainClass": "com.stockmarket.main.StockMarketApp",
+      "projectName": "StockMarketSimulator",
+      "vmArgs": "--module-path lib --class-path lib/*"
+    }
+  ]
+}

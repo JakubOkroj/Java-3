@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/jackson-annotations-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/opencsv-5.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/jackson-databind-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/jackson-core-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/commons-lang3-3.12.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
