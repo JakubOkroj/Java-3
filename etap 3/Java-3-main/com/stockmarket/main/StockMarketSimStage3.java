@@ -7,6 +7,7 @@ import com.stockmarket.market.Market;
 import com.stockmarket.model.Stock;
 import com.stockmarket.portfolio.Portfolio;
 import com.stockmarket.portfolio.PortfolioPosition;
+import com.stockmarket.market.Tradable;
 
 import java.util.Map;
 
@@ -66,8 +67,8 @@ public class StockMarketSimStage3 {
             String symbol = entry.getKey();
             int quantity = entry.getValue().getQuantity();
             double price = market.getAsset(symbol)
-                    .filter(asset -> asset instanceof com.stockmarket.market.Tradable)
-                    .map(asset -> ((com.stockmarket.market.Tradable) asset).getCurrentPrice())
+                    .filter(asset -> asset instanceof Tradable)
+                    .map(asset -> ((Tradable) asset).getCurrentPrice())
                     .orElse(0.0);
             double value = quantity * price;
 
